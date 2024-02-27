@@ -1,0 +1,15 @@
+[package]
+name = "solana_counter"
+version = "0.1.0"
+edition = "2021"
+description = "A Solana counter program"
+authors = ["0xF1"]
+
+[lib]
+name = "solana_counter"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+solana-program = "1.16.0"
+borsh = "0.10.3"
+borsh-derive = "0.10.3"
