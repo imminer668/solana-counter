@@ -70,8 +70,9 @@ cd solana-counter
 
 4. 构建项目
 ```bash
-cargo build-sbf    # 注意：使用 build-sbf 而不是 build-bpf
+cargo build-sbf    # 注意：使用 build-sbf 而不是 build-bpf 
 ```
+由于网络问题，本地构建可能很慢慢，考虑使用 Solana Playground 进行快速开发和测试，等代码确定后再在本地构建发布。
 
 ## 部署说明
 
